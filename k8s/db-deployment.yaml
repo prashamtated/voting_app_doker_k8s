@@ -20,9 +20,16 @@ spec:
         name: postgres
         env:
         - name: POSTGRES_USER
+          valueFrom:
+            configMapKeyRef:
+              name: db-configmap # The ConfigMap this value comes from.
+              key: POSTGRES_USER # The key to fetch.
           value: postgres
         - name: POSTGRES_PASSWORD
-          value: postgres
+          valueFrom:
+            secretKeyRef:
+              name: db-secret
+              key: POSTGRES_PASSWORD
         ports:
         - containerPort: 5432
           name: postgres
