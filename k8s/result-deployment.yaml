@@ -18,6 +18,11 @@ spec:
       containers:
       - image: prashamtated/voting_app_result
         name: result
+        resources:
+          limits:
+            memory: 10Mi
+          requests:
+            memory: 10Mi
         ports:
         - containerPort: 80
           name: result
