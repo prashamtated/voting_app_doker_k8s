@@ -24,7 +24,6 @@ spec:
             configMapKeyRef:
               name: db-configmap # The ConfigMap this value comes from.
               key: POSTGRES_USER # The key to fetch.
-          value: postgres
         - name: POSTGRES_PASSWORD
           valueFrom:
             secretKeyRef:
