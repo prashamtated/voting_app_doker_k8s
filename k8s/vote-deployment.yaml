@@ -18,6 +18,16 @@ spec:
       containers:
       - image: prashamtated/voting_app_vote
         name: vote
+        readinessProbe:
+          tcpSocket:
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          tcpSocket:
+            port: 80
+          initialDelaySeconds: 15
+          periodSeconds: 20
         ports:
         - containerPort: 80
           name: vote
