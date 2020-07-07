@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="439ec831-ed47-499b-90df-9a9afbef839e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/k8s/db-configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/db-pvc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/db-secret" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/db-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/db-deployment.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="439ec831-ed47-499b-90df-9a9afbef839e" name="Default Changelist" comment="added pvc , secret and configmap" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +48,14 @@
       <option name="presentableId" value="Default" />
       <updated>1594078342001</updated>
     </task>
+    <task id="LOCAL-00001" summary="added pvc , secret and configmap">
+      <created>1594079801076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594079801076</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,10 +69,22 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added pvc , secret and configmap" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pvc , secret and configmap" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594079005418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594079005418" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1594079873496">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594079873496" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1594079997978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594079997978" />
   </component>
 </project>
